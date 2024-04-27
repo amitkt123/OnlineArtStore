@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: APIGateway
+  cloud:
+    gateway:
+        routes:
+        - id:PRODUCT-MANAGEMENT-SERVICE 
+          uri: lb://ProductService
+          
+            predicates:
+            
+        
+          
+            
+
+server:
+  port: 8084
+  

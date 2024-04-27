@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: APIGateway
+  cloud:
+  gateway: { mvc: { routes: [ { id: CUSTOMER-SERVICE, uri: lb://CustomerService, predicates: [] } ] } }
+gateway: { mvc: { routes: [ { id: CUSTOMER-SERVICE, uri: lb://CustomerService, predicates: [] } ] } }
+
+   
+           
+
+server:
+  port: 8084
+  

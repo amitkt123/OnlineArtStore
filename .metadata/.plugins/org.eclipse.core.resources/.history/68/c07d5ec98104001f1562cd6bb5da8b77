@@ -1,0 +1,40 @@
+package com.ArtStore.APIGateway;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+[2m2024-04-27T15:23:12.552+05:30[0;39m [32m INFO[0;39m [35m10132[0;39m [2m---[0;39m [2m[ProductService] [  restartedMain][0;39m [2m[0;39m[36m.s.c.n.e.s.EurekaAutoServiceRegistration[0;39m [2m:[0;39m Updating port to 8085
+[2m2024-04-27T15:23:12.590+05:30[0;39m [32m INFO[0;39m [35m10132[0;39m [2m---[0;39m [2m[ProductService] [nfoReplicator-0][0;39m [2m[0;39m[36mcom.netflix.discovery.DiscoveryClient   [0;39m [2m:[0;39m DiscoveryClient_PRODUCTSERVICE/192.168.1.34:ProductService:8085 - registration status: 204
+[2m2024-04-27T15:23:12.760+05:30[0;39m [32m INFO[0;39m [35m10132[0;39m [2m---[0;39m [2m[ProductService] [  restartedMain][0;39m [2m[0;39m[36mc.P.ProductApplication                  [0;39m [2m:[0;39m Started ProductApplication in 17.373 seconds (process running for 19.668)
+[2m2024-04-27T15:23:13.204+05:30[0;39m [32m INFO[0;39m [35m10132[0;39m [2m---[0;39m [2m[ProductService] [on(8)-127.0.0.1][0;39m [2m[0;39m[36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2m2024-04-27T15:23:13.204+05:30[0;39m [32m INFO[0;39m [35m10132[0;39m [2m---[0;39m [2m[ProductService] [on(8)-127.0.0.1][0;39m [2m[0;39m[36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+[2m2024-04-27T15:23:13.206+05:30[0;39m [32m INFO[0;39m [35m10132[0;39m [2m---[0;39m [2m[ProductService] [on(8)-127.0.0.1][0;39m [2m[0;39m[36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 2 ms
+[2m2024-04-27T15:23:42.507+05:30[0;39m [32m INFO[0;39m [35m10132[0;39m [2m---[0;39m [2m[ProductService] [freshExecutor-0][0;39m [2m[0;39m[36mcom.netflix.discovery.DiscoveryClient   [0;39m [2m:[0;39m Disable delta property : false
+[2m2024-04-27T15:23:42.509+05:30[0;39m [32m INFO[0;39m [35m10132[0;39m [2m---[0;39m [2m[ProductService] [freshExecutor-0][0;39m [2m[0;39m[36mcom.netflix.discovery.DiscoveryClient   [0;39m [2m:[0;39m Single vip registry refresh property : null
+[2m2024-04-27T15:23:42.509+05:30[0;39m [32m INFO[0;39m [35m10132[0;39m [2m---[0;39m [2m[ProductService] [freshExecutor-0][0;39m [2m[0;39m[36mcom.netflix.discovery.DiscoveryClient   [0;39m [2m:[0;39m Force full registry fetch : false
+[2m2024-04-27T15:23:42.509+05:30[0;39m [32m INFO[0;39m [35m10132[0;39m [2m---[0;39m [2m[ProductService] [freshExecutor-0][0;39m [2m[0;39m[36mcom.netflix.discovery.DiscoveryClient   [0;39m [2m:[0;39m Application is null : false
+[2m2024-04-27T15:23:42.509+05:30[0;39m [32m INFO[0;39m [35m10132[0;39m [2m---[0;39m [2m[ProductService] [freshExecutor-0][0;39m [2m[0;39m[36mcom.netflix.discovery.DiscoveryClient   [0;39m [2m:[0;39m Registered Applications size is zero : true
+[2m2024-04-27T15:23:42.510+05:30[0;39m [32m INFO[0;39m [35m10132[0;39m [2m---[0;39m [2m[ProductService] [freshExecutor-0][0;39m [2m[0;39m[36mcom.netflix.discovery.DiscoveryClient   [0;39m [2m:[0;39m Application version is -1: false
+[2m2024-04-27T15:23:42.510+05:30[0;39m [32m INFO[0;39m [35m10132[0;39m [2m---[0;39m [2m[ProductService] [freshExecutor-0][0;39m [2m[0;39m[36mcom.netflix.discovery.DiscoveryClient   [0;39m [2m:[0;39m Getting all instance registry info from the eureka server
+[2m2024-04-27T15:23:42.534+05:30[0;39m [32m INFO[0;39m [35m10132[0;39m [2m---[0;39m [2m[ProductService] [freshExecutor-0][0;39m [2m[0;39m[36mcom.netflix.discovery.DiscoveryClient   [0;39m [2m:[0;39m The response status is 200
+[2m2024-04-27T15:24:12.639+05:30[0;39m [32m INFO[0;39m [35m10132[0;39m [2m---[0;39m [2m[ProductService] [tbeatExecutor-0][0;39m [2m[0;39m[36mcom.netflix.discovery.DiscoveryClient   [0;39m [2m:[0;39m DiscoveryClient_PRODUCTSERVICE/192.168.1.34:ProductService:8085 - Re-registering apps/PRODUCTSERVICE
+[2m2024-04-27T15:24:12.640+05:30[0;39m [32m INFO[0;39m [35m10132[0;39m [2m---[0;39m [2m[ProductService] [tbeatExecutor-0][0;39m [2m[0;39m[36mcom.netflix.discovery.DiscoveryClient   [0;39m [2m:[0;39m DiscoveryClient_PRODUCTSERVICE/192.168.1.34:ProductService:8085: registering service...
+[2m2024-04-27T15:24:12.649+05:30[0;39m [32m INFO[0;39m [35m10132[0;39m [2m---[0;39m [2m[ProductService] [nfoReplicator-0][0;39m [2m[0;39m[36mcom.netflix.discovery.DiscoveryClient   [0;39m [2m:[0;39m DiscoveryClient_PRODUCTSERVICE/192.168.1.34:ProductService:8085: registering service...
+[2m2024-04-27T15:24:12.650+05:30[0;39m [32m INFO[0;39m [35m10132[0;39m [2m---[0;39m [2m[ProductService] [tbeatExecutor-0][0;39m [2m[0;39m[36mcom.netflix.discovery.DiscoveryClient   [0;39m [2m:[0;39m DiscoveryClient_PRODUCTSERVICE/192.168.1.34:ProductService:8085 - registration status: 204
+[2m2024-04-27T15:24:12.665+05:30[0;39m [32m INFO[0;39m [35m10132[0;39m [2m---[0;39m [2m[ProductService] [nfoReplicator-0][0;39m [2m[0;39m[36mcom.netflix.discovery.DiscoveryClient   [0;39m [2m:[0;39m DiscoveryClient_PRODUCTSERVICE/192.168.1.34:ProductService:8085 - registration status: 204
+[2m2024-04-27T15:24:42.677+05:30[0;39m [32m INFO[0;39m [35m10132[0;39m [2m---[0;39m [2m[ProductService] [freshExecutor-0][0;39m [2m[0;39m[36mcom.netflix.discovery.DiscoveryClient   [0;39m [2m:[0;39m Disable delta property : false
+[2m2024-04-27T15:24:42.677+05:30[0;39m [32m INFO[0;39m [35m10132[0;39m [2m---[0;39m [2m[ProductService] [freshExecutor-0][0;39m [2m[0;39m[36mcom.netflix.discovery.DiscoveryClient   [0;39m [2m:[0;39m Single vip registry refresh property : null
+[2m2024-04-27T15:24:42.677+05:30[0;39m [32m INFO[0;39m [35m10132[0;39m [2m---[0;39m [2m[ProductService] [freshExecutor-0][0;39m [2m[0;39m[36mcom.netflix.discovery.DiscoveryClient   [0;39m [2m:[0;39m Force full registry fetch : false
+[2m2024-04-27T15:24:42.677+05:30[0;39m [32m INFO[0;39m [35m10132[0;39m [2m---[0;39m [2m[ProductService] [freshExecutor-0][0;39m [2m[0;39m[36mcom.netflix.discovery.DiscoveryClient   [0;39m [2m:[0;39m Application is null : false
+[2m2024-04-27T15:24:42.677+05:30[0;39m [32m INFO[0;39m [35m10132[0;39m [2m---[0;39m [2m[ProductService] [freshExecutor-0][0;39m [2m[0;39m[36mcom.netflix.discovery.DiscoveryClient   [0;39m [2m:[0;39m Registered Applications size is zero : true
+[2m2024-04-27T15:24:42.678+05:30[0;39m [32m INFO[0;39m [35m10132[0;39m [2m---[0;39m [2m[ProductService] [freshExecutor-0][0;39m [2m[0;39m[36mcom.netflix.discovery.DiscoveryClient   [0;39m [2m:[0;39m Application version is -1: false
+[2m2024-04-27T15:24:42.678+05:30[0;39m [32m INFO[0;39m [35m10132[0;39m [2m---[0;39m [2m[ProductService] [freshExecutor-0][0;39m [2m[0;39m[36mcom.netflix.discovery.DiscoveryClient   [0;39m [2m:[0;39m Getting all instance registry info from the eureka server
+[2m2024-04-27T15:24:42.690+05:30[0;39m [32m INFO[0;39m [35m10132[0;39m [2m---[0;39m [2m[ProductService] [freshExecutor-0][0;39m [2m[0;39m[36mcom.netflix.discovery.DiscoveryClient   [0;39m [2m:[0;39m The response status is 200	
+public class ApiGatewayApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(ApiGatewayApplication.class, args);
+	}
+
+}

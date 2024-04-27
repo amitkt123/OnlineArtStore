@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: APIGateway
+    spring.cloud.gatw
+   
+           
+
+server:
+  port: 8084
+  

@@ -1,0 +1,22 @@
+
+server:
+  port: 8084 
+
+spring:
+  application:
+    name: APIGateway
+  cloud:
+    gateway:
+      mvc:
+        routes:
+        - id : CUSTOMER-SERVICE
+          uri:
+            lb://CustomerService
+          predicates:
+          - Path = /customers
+ 
+   
+           
+
+
+  

@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: APIGateway
+  cloud:
+    gateway:
+      mvc:
+        routes:
+        - id:PRODUCT-MANAGEMENT-SERVICE
+          uri:
+            
+
+server:
+  port: 8084
+  

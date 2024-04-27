@@ -1,0 +1,23 @@
+
+           
+
+server:
+  port: 8084
+
+spring:
+  application:
+    name: APIGateway
+  cloud:
+    gateway:
+      mvc:
+        routes:
+        - id: customer-service  # Lowercase for consistency
+          uri: lb://CustomerService  # Assuming service name is lowercase
+          predicates:
+            - Path=/customers/**  # Matches requests starting with /customers/
+        - id: product-management-service  # Lowercase for consistency
+          uri: lb://product-service  # Assuming service name is lowercase
+          predicates:
+            - Path=/products/**  # Matches requests starting with /products/
+
+  
